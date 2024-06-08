@@ -1,0 +1,84 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f3ede5;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.swiper {
+  padding: 4rem 0;
+  margin-left: 1rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 96%;
+  margin-right: 0.5rem;
+}
+
+.swiper-slide-next img {
+  border-radius: 0.5rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: auto;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev img,
+.swiper-button-next img {
+  width: auto;
+  background: black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: '';
+}
+
+.swiper-button-next {
+  right: 1.5rem;
+}
+
+.swiper-slide img {
+}
+
+@media screen and (min-width: 1440px) {
+  .swiper-slide {
+    width: 34%;
+  }
+
+  .swiper {
+    padding: 6rem 0;
+    margin-left: 4rem;
+  }
+
+  .swiper-button-prev {
+    left: 2px;
+  }
+  .swiper-button-next {
+    right: 2rem;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  html {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
