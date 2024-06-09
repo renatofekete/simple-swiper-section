@@ -55,9 +55,6 @@ img {
   right: 1.5rem;
 }
 
-.swiper-slide img {
-}
-
 @media screen and (min-width: 1440px) {
   .swiper-slide {
     width: 34%;
